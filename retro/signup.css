@@ -1,0 +1,77 @@
+.flex-container{
+	display: flex;
+	width: 100%;
+	height: 737px;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+/*.flex-container div{
+	width: 425px;
+	height: 737px;
+	background-color: whitesmoke;
+ } */
+ .flex-element{width:50%;
+	/* text-align:center; */
+}
+
+
+#welcome{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: system-ui;
+}
+#idea{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: system-ui;
+}
+#email{
+	text-align: center;
+}
+#emaill{
+	height: 20px;
+	width: 300px;
+}	
+#password{
+	text-align: center;
+}
+#pass{
+	height: 20px;
+	width: 300px;
+}
+#age{
+	text-align: center;
+}
+#a{
+	height: 20px;
+	width: 300px;
+}
+#submit{
+	text-align: center;
+}
+#sub{
+	height: 30px;
+	width: 300px;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+body{margin:0;
+	background-color:#cfb1cfb0;
+}
+#footer-column-container{display:flex;
+	flex-direction:row;
+  }
+  .footer-column{display:flex;
+	flex-direction:row;
+	margin:50px;
+	flex:25%;
+	color:#d1cecd;
+}
+#footer {
+background-color: #332736;
+}
