@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -14,5 +15,9 @@ cout << "eligible for vaccination with highest priority";
 else if (y>18 && y<60) {
 cout << "eligible for vaccination with least priority.";
 }
+else if (y<0) {
+cout << "Invalid entry Please enter correct age.";
+}
+//modified file by addition of else if(y<0) condition,and a math header file and mentioning about addition in this comment.
 return 0;
 }
