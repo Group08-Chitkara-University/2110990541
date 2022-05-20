@@ -1,0 +1,104 @@
+html , body{
+    overflow:hidden;
+}
+.nav-link{
+    text-decoration:none;
+    color:#fff;
+    font-family: 'Baloo Bhaijaan 2';
+    /* font-family: 'Fira Sans Condensed', sans-serif; */
+    font-weight:bolder;
+}
+.nav-link:hover{
+background-image: linear-gradient(to right, rgb(78 102 120), rgb(12 133 153));
+  border-radius: 5px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  opacity:1;
+  color:#a9f1f1;
+}
+.nav-li{
+    list-style-type:none;
+}
+.navbar{ 
+    background-image: linear-gradient(to right, rgb(78 102 120), rgb(12 133 153));
+    height:80px;
+}
+#logo{
+    text-align:center;
+    height:48px;
+}
+.span-logo{
+    font-size:30px;
+    color:white;
+}
+.nav{
+    display:flex; 
+    flex-direction:row;
+    margin:4px 0px;
+}
+#bar-anchor{
+    color:white;
+}
+#bars{
+    display:none; 
+}
+#mobile{
+    display: none;
+
+}
+.nav-items:hover{
+       border-radius:5px;
+}
+.nav-content-container{
+    display:flex;
+    flex-direction:row;
+}
+#logo{
+    text-align:center;
+    height:48px;
+}
+@media only screen and (max-width: 694px) {
+    #bars{
+        display: block;
+        position: absolute;
+        right: 0;
+        padding-right: 20px;
+        top:0;
+        padding-top:0.7rem; 
+    }
+    #desktop{display:none;
+        
+    }
+    #mobile{
+        display:block;
+        background-image: linear-gradient(to right, rgb(78 102 120), rgb(12 133 153));
+    }
+    .nav{
+        display:flex;
+        flex-direction:column;
+        margin:4px 0px;
+
+    }
+    .nav-link{
+        display:block;
+        text-align: center;
+    }
+    
+    .nav-content-container{
+        display:block;
+    }
+     .nav-items{
+        display:block;
+    }
+    .hamburg-icon , #icon-1 {font-size:33px;}
+
+    .navbar{height:58px;}
+
+    .logo{
+        position:absolute;
+        top:0;
+        padding-top:0.1rem;
+    }
+
+}
