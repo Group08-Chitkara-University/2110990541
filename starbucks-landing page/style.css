@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  margin-left: 6%;
+  margin-right: 5%;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-child {
+  flex-direction: column;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-links-container {
+  width: 100vw;
+}
+#link-ul {
+  justify-content: flex-end;
+}
+#logo {
+  width: 90%;
+  height: auto;
+}
+.nav {
+  margin-top: 20px;
+}
+.main {
+  max-height: 100vh;
+}
+.main-child {
+  flex-basis: 50%;
+  max-height: 100vh;
+}
+
+#content-heading {
+  font-size: 3.199rem;
+}
+#starbucks-text {
+  color: #285c38;
+  font-weight: bolder;
+}
+#content {
+  margin-top: 16vh;
+}
+#learn-more-btn {
+  padding: 5px 15px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  background-color: #2e6841;
+  color: #ffffff;
+}
+.coffee-img {
+  margin-left: 27%;
+}
+#img-display {
+  height: 75vh;
+}
+body {
+  position: relative;
+}
+#circle {
+  width: 100%;
+  height: 100%;
+  background-color: #285c38;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 760px);
+  /* z-index: -1; */
+}
+.coffee-img-container {
+  position: relative;
+}
+.icon-container {
+  position: absolute;
+  top: 30%;
+  right: -5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  color: #f1f1f1;
+}
+.small-img {
+  height: 5.5rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.small-img:hover {
+  transform: translate(0, -15px);
+  -webkit-transform: translate(0, -15px);
+  -moz-transform: translate(0, -15px);
+  -ms-transform: translate(0, -15px);
+  -o-transform: translate(0, -15px);
+}
+.thumbnail-container {
+  margin-top: 1.5%;
+  margin-left: 36%;
+  align-items: center;
+}
+
+/* .nav {
+  position: sticky;
+} */
+/* color:#347445-green */
