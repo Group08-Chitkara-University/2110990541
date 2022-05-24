@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4e49af1ac5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- dashboard template start -->
+    <div id="parent">
+        <!-- dashboard left-section starts -->
+        <!-- side navbar -->
+        <div class="nav-container child">
+            <h2 id="brand-name-h2" style="padding:10px;margin:0;"><i class="fa-brands fa-apple icon"
+                    style="font-size: 27px;"></i><span id="brand" class="icon-name hide">Brand Name</span></h2>
+            <ul id="nav-ul">
+                <li class="nav-item"><i class="fa-solid fa-house icon"></i><span class="icon-name hide">Dashboard</span>
+                </li>
+                <li class="nav-item"></i> <i class="fa-solid fa-users icon"></i><span
+                        class="icon-name hide">Customers</span>
+                </li>
+                <li class="nav-item"><i class="fa-solid fa-gear icon"></i><span class="icon-name hide">Settings</span>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <span class="icon-name hide">Password</span>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-message icon"></i>
+                    <span class="icon-name hide">Message</span>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-address-card icon"></i><span class="icon-name hide">Admin details</span>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-right-from-bracket icon"></i>
+                    <span class="icon-name hide">Sign Out</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- side navbar ends -->
+        <!-- dashboard left-section ends -->
+
+        <!-- dashboard right-setion start -->
+        <!-- dashboard right-section topnav start -->
+        <div class="dashboard-info child">
+            <div id="dashboard-nav" style="background-color: #fffdff;">
+                <div style="padding-top:20.8px;padding-bottom:3px;" class="cnav"><span id="bars"><i
+                            class="fa-solid fa-bars icon"></i></span><span id="cross"><i
+                            class="fa-solid fa-xmark icon"></i></span>
+                </div>
+                <div id="search" class="cnav">
+                    <input type="text" placeholder="Search" />
+                </div>
+                <div class="cnav profile">
+                    <div id="profile-pic"><img src="img/profile-pic.jpeg" style="width:32.5%;height:auto;"></div>
+                </div>
+            </div>
+            <!-- dashboard right-section topnav ends -->
+
+
+            <!-- summary section starts -->
+            
+
+
+
+            
+            <!-- summary section ends -->
+
+
+
+
+            <!-- main section start -->
+            <!-- main section left-container start -->
+           
+
+
+            <!-- main section left-container ends -->
+
+
+
+
+             <!-- main section right-container start -->
+             
+
+
+
+             <!-- main section right-container ends -->
+
+             </div>
+             </div>
+             <!-- main section ends -->
+        </div>
+        <!-- dashboard right-setion ends -->
+    </div>
+<!-- dashboard template ends -->
+
+    <!-- jquery code -->
+    <script>
+        $(document).ready(function () {
+            $("#cross").click(function () {
+                $(".hide").css("opacity", "0").hide("fast");
+                $("#bars").show();
+                $("#cross").hide();
+
+                $(".nav-container").animate({
+                    width: '52px'
+                });
+            });
+            //var x;
+            //x=$("#status-select").val();
+            //if(x=="delivered"){
+            //$("#deliver").addClass("sort");
+            //}
+            $("#bars").click(function () {
+                $(this).hide();
+                $("#cross").show();
+                $(".hide").delay("fast").css("opacity", "1").show("fast");
+
+                $(".nav-container").animate({
+                    width: '30vw'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
