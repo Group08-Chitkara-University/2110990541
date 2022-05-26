@@ -248,7 +248,35 @@
 
 
        /*  <!-- main section right-container start --> */
-      
+ 		.flex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+  }
+  .flex-child {
+    flex-direction: column;
+  }
+  .Profile-img-conatainer {
+    width: 30%;
+  }
+  
+  .person-detail {
+    width: 74%;
+  }
+  .profile-img {
+    width: 3.5rem;
+    height: auto;
+  }
+  .person-detail-h4 {
+    margin: 0;
+  }
+  #recent-customer-text-parent {
+    padding-bottom: 9.56px;
+  }
+  .place {
+    color: #b1b1c6;
+  }
+     
 
 
 
