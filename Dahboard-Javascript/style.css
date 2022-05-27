@@ -111,7 +111,32 @@
 
     /* <!-- summary section starts --> */
     
-    
+    #summary-container {
+  background-color: #f6f4f6;
+}
+#summary-c-parent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.summary-c {
+  flex-direction: column;
+  padding: 18px;
+  width: 25%;
+  margin: 10px 7px;
+  background-color: #fffdff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.summary-content {
+  display: flex;
+  flex-direction: row;
+}
+.content {
 
 
     /* <!-- summary section ends -->  */
